@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	Definir v, Alea Como Entero
+	alea<-azar(10)+1
+	Repetir
+ 
+	Escribir "Digite un numero"
+	leer v
+	Si (alea==v) Entonces
+		Escribir "Bingo"
+	FinSi
+	Si (alea<v)
+		Escribir "El valor debe ser mas pequeño"
+		
+	FinSi
+	si (alea>v)
+		Escribir "El valor debe ser mas grande"
+		
+	FinSi
+Hasta Que alea==v
+FinAlgoritmo
